@@ -1,0 +1,195 @@
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Black.woff2") format("woff2"), url("../fonts/Roboto-Black.woff") format("woff");
+ font-weight: 900;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
+ font-weight: 100;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Roboto";
+ src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Larsseit";
+ src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Larsseit";
+ src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Larsseit";
+ src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+ font-weight: 500;
+ font-style: normal;
+ font-display: swap;
+}
+
+
+@font-face {
+ font-family: "Lato";
+ src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+ font-weight: normal;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Lato";
+ src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+ font-weight: 900;
+ font-style: normal;
+ font-display: swap;
+}
+
+@font-face {
+ font-family: "Lato";
+ src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+ font-weight: 700;
+ font-style: normal;
+ font-display: swap;
+}
+
+
+* {
+ color: rgb(18, 16, 16);
+}
+
+header,
+main,
+footer {
+ font-family: "Roboto", "Larsseit", "Arial", sans-serif;
+}
+
+div.historyblock p {
+ font-family: "Larsseit", "Roboto", "Arial", sans-serif;
+}
+
+div.rebuildingblock {
+ font-family: "Lato", "Roboto", "Larsseit", "Arial", sans-serif;
+}
+
+div.rebuildingblock .date.bold {
+ font-weight: 900;
+}
+
+div.rebuildingblock>p>span.name.bold {
+ font-weight: 400;
+}
+
+header a {
+ font-weight: 100;
+}
+
+.maintittle {
+ font-weight: 900;
+ font-size: 50px;
+}
+
+
+div .maintittle+h2 {
+ font-size: 28px;
+}
+
+.text~.list {
+ font-size: 30px;
+ color: rgb(153, 0, 255);
+}
+
+div>h2 {
+ font-size: 30px;
+}
+
+div .link {
+ color: blue;
+}
+
+div>.text {
+ font-size: 16px;
+}
+
+div .nextquote+p {
+ font-size: 14px;
+}
+
+.text.quote {
+ color: rgb(141, 133, 103);
+}
+
+p .date {
+ color: rgb(228, 20, 228);
+}
+
+.date {
+ font-size: 17px;
+ font-weight: 700;
+}
+
+.ass {
+ color: brown;
+}
+
+.beginingblock a {
+ color: blue;
+}
+
+.fact {
+ color: palevioletred;
+}
+
+.fact span {
+ color: palevioletred;
+}
+
+.footerblock>p>mark {
+ font-size: 26px;
+ font-weight: 100;
+}
+
+main .linktolist {
+ font-size: 20px;
+}
+
+footer a {
+ color: rgb(147, 147, 26);
+ font-size: 26px;
+}
+
+.marktext * {
+ font-weight: 900;
+}
+
+.footerblock .text .marktext span {
+ color: rgb(35, 75, 75);
+}
+
+div .bold.name {
+ color: gold;
+ font-weight: 900;
+}
+
+p .landmark {
+ font-weight: 900;
+ color: red;
+}
